@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Sangamesh Gaded | QA Lead Profile Builder</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <style>
+    body { font-family: 'Roboto', sans-serif; background: #f5f7fa; margin: 0; }
+    .container { max-width: 900px; background: #fff; margin: 40px auto; box-shadow: 0 2px 12px rgba(0,0,0,0.10); padding: 32px; border-radius: 10px;}
+    h1, h2, h3 { margin-top: 0; color: #2553a1; }
+    .contact { margin-bottom: 18px; }
+    .contact span, .contact a { margin-right: 18px; color: #2d415c;}
+    .section { margin-bottom: 32px;}
+    ul { padding-left: 20px; }
+    .job { margin-bottom: 18px;}
+    .languages span{ background: #e3fcec; margin-right: 5px; padding: 2px 8px; border-radius: 4px;}
+    .pdf-btn { background: #2553a1; color: #fff; padding: 8px 18px; border: none; border-radius: 4px; font-size: 16px; cursor:pointer; margin-bottom: 20px; }
+    .pdf-btn:active { background: #143664;}
+    @media print {
+      .pdf-btn { display: none;}
+      .container { box-shadow: none;}
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="resume-content">
+    <button class="pdf-btn" onclick="downloadPDF()">Download Resume as PDF</button>
+    <h1>Sangamesh Gaded</h1>
+    <h2>QA Lead / Principal Software Quality Assurance Engineer</h2>
+    <div class="contact">
+      <span>📧 <a href="mailto:sangameshgadedqe@gmail.com">sangameshgadedqe@gmail.com</a></span>
+      <span>📞 +91 9538464679</span>
+      <span>🌐 <a href="https://linkedin.com/in/sangamesh-gaded-16935b54" target="_blank">LinkedIn</a></span>
+    </div>
+    <div class="section">
+      <h3>Professional Summary</h3>
+      <p>
+        Dynamic and results-driven Quality Engineering Leader with 13+ years of experience in software quality assurance, automation, performance testing and DevOps. Proven track record in leading QA teams, scaling test automation, and embedding quality into CI/CD pipelines. Adept at aligning QA strategy with business goals, improving release confidence, and accelerating delivery velocity. Expertise spans automation frameworks, API testing, performance testing, helm charts and CI/CD pipeline integration with GitHub Actions and Harness.
+      </p>
+    </div>
+    <div class="section">
+      <h3>Professional Experience</h3>
+      <div class="job">
+        <strong>Principal Software Quality Assurance Engineer / QA Lead</strong> <br>
+        DigiCert Inc | Apr 2023 – Present | Bangalore
+        <ul>
+          <li>Defined and implemented QA strategy covering functional, regression, integration, performance.</li>
+          <li>Automated regression, API and integration tests using Pytest.</li>
+          <li>Led a team of 6+ QA engineers, improving test coverage and reducing the defects.</li>
+          <li>Created Docker-based E2E Test Execution flow and integrated with GitHub Actions.</li>
+          <li>Added scheduled GitHub Actions to check cert expiry and send Slack alerts to team.</li>
+          <li>Integrated automated tests into CI/CD pipelines via GitHub Actions and executed tests in Docker/Kubernetes.</li>
+          <li>Conducted performance testing using Jmeter, MQTT Swarm.</li>
+          <li>Collaborated across Agile/Scrum environment for SDLC & STLC execution.</li>
+          <li>Oversaw Jira, TestRail and QA metrics; initiated vulnerability assessments.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <strong>Senior Software Development Engineer in Test</strong> <br>
+        StockX India Pvt Ltd | Jul 2021 – Apr 2023 | Bangalore
+        <ul>
+          <li>Automated end-to-end web and API tests using Selenium and Appium.</li>
+          <li>Built reusable test scripts, integrated with CI/CD pipelines (Jenkins, GitHub Actions).</li>
+          <li>Mentored 4+ team members on test automation frameworks.</li>
+          <li>Demonstrated new product features to clients, managers, and team members.</li>
+          <li>Contributed to root cause analysis and quality standard improvements.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <strong>Senior Software Quality Assurance Engineer</strong> <br>
+        Dell EMC | Mar 2018 – Jul 2021 | Bangalore
+        <ul>
+          <li>Designed automation frameworks with Selenium, BDD, TestNG, AWS Cloud.</li>
+          <li>Led performance/load/backend testing and QA team training activities.</li>
+          <li>Collaborated with Site reliability engineer for quality thresholds.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <strong>Staff Software Quality Engineer</strong> <br>
+        Altimetrik | Aug 2015 – Mar 2018 | Bangalore
+        <ul>
+          <li>Developed automated test solutions for functional/regression testing (Java/Selenium).</li>
+          <li>Conducted performance and compliance testing.</li>
+          <li>Actively contributed to Agile ceremonies and backlog refinement sessions.</li>
+        </ul>
+      </div>
+      <div class="job">
+        <strong>Senior Quality Assurance Engineer</strong> <br>
+        LTIMindtree | Jul 2011 – Aug 2015 | Bangalore
+        <ul>
+          <li>Built custom test automation tools (Java/Selenium).</li>
+          <li>Performed UAT, security testing, and compliance validation.</li>
+          <li>Improved Jira-based defect tracking/reporting.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+      <h3>Education</h3>
+      <p>
+        <strong>Bachelor of Engineering (B.E.) Electronics & Electrical</strong> <br>
+        Basaveshwar Engineering College, Bagalkot (2007 - 2011)
+      </p>
+    </div>
+    <div class="section">
+      <h3>Certifications</h3>
+      <ul>
+        <li>ISTQB Certified Tester – Foundation Level</li>
+      </ul>
+    </div>
+    <div class="section languages">
+      <h3>Languages</h3>
+      <span>English</span>
+      <span>Hindi</span>
+      <span>Kannada</span>
+    </div>
+    <div class="section">
+      <h3>Skills</h3>
+      <ul>
+        <li><strong>Leadership & Strategy:</strong> QA Transformation • Team Building & Mentorship • Agile/Scrum Collaboration • Stakeholder Management</li>
+        <li><strong>Automation & DevOps:</strong> Selenium Webdriver • Cypress (Basic) • PyTest • TestNg • Jenkins • GitHub Actions • Harness • AWS • Docker • Kubernetes • Helm Charts • API Testing (Postman, Rest Assured)</li>
+        <li><strong>Performance & Observability:</strong> Jmeter • New Relic • Grafana • Prometheus • Splunk</li>
+        <li><strong>Programming & Tools:</strong> Java • Python • SQL • Jira • TestRail • Bugzilla</li>
+        <li><strong>Quality Engineering:</strong> Test Architecture • Framework Development • Test Strategy & Planning • Security & Compliance (SOC2, GDPR, PCI DSS) • CI/CD Quality Gates • Defect Prevention</li>
+        <li><strong>Others:</strong> IOT • MQTT</li>
+      </ul>
+    </div>
+  </div>
+  <script>
+    function downloadPDF() {
+      const resume = document.getElementById('resume-content');
+      html2canvas(resume).then(canvas => {
+        const imgData = canvas.toDataURL('image/png');
+        const pdf = new jspdf.jsPDF({
+          orientation: 'portrait',
+          unit: 'px',
+          format: [canvas.width, canvas.height]
+        });
+        pdf.addImage(imgData, 'PNG', 0, 0, canvas.width, canvas.height);
+        pdf.save('sangamesh_gaded_resume.pdf');
+      });
+    }
+  </script>
+</body>
+</html>
